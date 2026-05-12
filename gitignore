@@ -1,0 +1,41 @@
+# Credentials & secrets — NEVER commit these
+.env
+*.env
+credentials.json
+*service-account*.json
+*-credentials*.json
+
+# Archival data — not for public release
+data/
+sample_data/
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.pdf
+
+# Generated outputs
+output/
+results/
+*.xlsx
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
